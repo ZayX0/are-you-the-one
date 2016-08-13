@@ -51,7 +51,7 @@ html , body {
 .select-character {
   color: white;
   font-size: 2em;
-  font-family: 'Exo', sans-serif;;
+  font-family: 'Exo', sans-serif;
   text-align: center;
   width: 100%;
   flex-basis: auto;
@@ -79,10 +79,25 @@ html , body {
 }
 
 #quiz-container {
-  position: relative;
-  display: none;
+  position: absolute;
+  border-radius: 2%;
   top: 20%;
   height: 700px;
   width: 600px;
   background-color: white;
+}
+
+.inner-quiz-content {
+  position: relative;
+  height: 97%;
+}
+
+
+.quiz-title {
+  display: block;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  border-bottom: 2px solid black;
 }
