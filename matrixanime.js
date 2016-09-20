@@ -14,9 +14,7 @@ var endAnimateListen = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanima
     };
 
 
-
-
-  $('.page-wrapper').fadeIn('slow');    //  Whole page fade in
+$('.page-wrapper').fadeIn('slow');    //  Whole page fade in
 
 /* Queue to load characters once page loads, inline flex is used for equal spacing along same line.
 Animate.css used for addClass effects. */
@@ -37,6 +35,8 @@ Animate.css used for addClass effects. */
   $('#select-picture-morpheus').click(clearPage('select-picture-morpheus', 'select-picture-neo', 'select-picture-smith'), function(){
       $('.text-background3').animate({'right' : '33%' });
   });
+
+// Image clicked displays quiz
 
 
 });

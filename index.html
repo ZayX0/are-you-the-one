@@ -19,12 +19,20 @@
     <div class="text-background3" id="select-picture-morpheus"></div>
     <div id="quiz-container">
       <div id="quiz-content-smith" class="inner-quiz-content">
-        <div id="smithTitle" class="quiz-title">
+        <div class="quiz-title" id="smithTitle" >
           <h1>Agent Smith</h1>
         </div>
-        <div id="smith-quiz-questions" class="quiz-questions">
-          
-        </div>
+          <div class="question_wrapper">
+            <h2>In which movie could Agent Smith duplicate himself?</h2>
+          </div>
+          <div class="answer-wrapper">
+            <form action="answer.php" method="post">
+              <input type="radio" name="movie-title" value="The Matrix" />The Matrix <br />
+              <input type="radio" name="movie-title" value="matrix_reloaded" />The Matrix Reloaded <br />
+              <input type="radio" name="movie-title" value="matrix_revolutions" />The Matrix Revolutions<br /><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
       </div>
     </div>
   </div>
