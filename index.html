@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <title>The Matrix FTW</title>
+  <link rel="stylesheet" href="animate.css" type="text/css" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Exo|Open+Sans" rel="stylesheet">
+</head>
+<body>
+<script src="matrixanime.js"></script>
+<div class="page-wrapper">
+  <div class="background">
+    <div class="select-character">
+        <h1>Select Your Character</h1>
+    </div>
+    <div class="text-background1" id="select-picture-smith"></div>
+    <div class="text-background2" id="select-picture-neo"></div>
+    <div class="text-background3" id="select-picture-morpheus"></div>
+    <div id="quiz-container">
+      <div id="quiz-content-smith" class="inner-quiz-content">
+        <div class="quiz-title" id="smithTitle" >
+          <h1>Agent Smith</h1>
+        </div>
+          <div class="question_wrapper">
+            <h2>In which movie could Agent Smith duplicate himself?</h2>
+          </div>
+          <div class="answer-wrapper">
+            <form action="answer.php" method="post">
+              <input type="radio" name="movie-title" value="The Matrix" />The Matrix <br />
+              <input type="radio" name="movie-title" value="matrix_reloaded" />The Matrix Reloaded <br />
+              <input type="radio" name="movie-title" value="matrix_revolutions" />The Matrix Revolutions<br /><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
